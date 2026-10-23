@@ -1,0 +1,223 @@
+Script started on 2026-10-23 19:33:36+08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="183" LINES="36"]
+[?2004h]0;user@user-VMware-Virtual-Platform: ~/agri-robot-training[01;32muser@user-VMware-Virtual-Platform[00m:[01;34m~/agri-robot-training[00m$ [7m./build/tcp_server[27m./build/tcp_server
+[?2004l[Server] 啟動農業機器人 Gateway 監聽服務 (RAII 重構版)...
+[TractorState] 物件已建構。機器人名稱: AgriServer-Gateway (預設為 MANUAL 模式)
+
+[Server] 正在通訊埠 8080 上等待機器人連線...
+[Server] 機器人已成功連線 (fd: 4)！
+[Server] 收到資料: Seq 1: Tractor Status OK
+[Server] 收到資料: Seq 2: Tractor Status OK
+[Server] 收到資料: Seq 3: Tractor Status OK
+[Server] 收到資料: Seq 4: Tractor Status OK
+[Server] 收到資料: Seq 5: Tractor Status OK
+[Server] 收到資料: Seq 6: Tractor Status OK
+[Server] 收到資料: Seq 7: Tractor Status OK
+[Server] 收到資料: Seq 8: Tractor Status OK
+[Server] 收到資料: Seq 9: Tractor Status OK
+[Server] 收到資料: Seq 10: Tractor Status OK
+[Server] 收到資料: Seq 11: Tractor Status OK
+[Server] 收到資料: Seq 12: Tractor Status OK
+[Server] 收到資料: Seq 13: Tractor Status OK
+[Server] 收到資料: Seq 14: Tractor Status OK
+[Server] 收到資料: Seq 15: Tractor Status OK
+[Server] 收到資料: Seq 16: Tractor Status OK
+[Server] 收到資料: Seq 17: Tractor Status OK
+[Server] 收到資料: Seq 18: Tractor Status OK
+[Server] 收到資料: Seq 19: Tractor Status OK
+[Server] 收到資料: Seq 20: Tractor Status OK
+[Server] 收到資料: Seq 21: Tractor Status OK
+[Server] 收到資料: Seq 22: Tractor Status OK
+[Server] 收到資料: Seq 23: Tractor Status OK
+[Server] 收到資料: Seq 24: Tractor Status OK
+[Server] 收到資料: Seq 25: Tractor Status OK
+[Server] 收到資料: Seq 26: Tractor Status OK
+[Server] 收到資料: Seq 27: Tractor Status OK
+[Server] 收到資料: Seq 28: Tractor Status OK
+[Server] 收到資料: Seq 29: Tractor Status OK
+[Server] 收到資料: Seq 30: Tractor Status OK
+[Server] 收到資料: Seq 31: Tractor Status OK
+[Server] 收到資料: Seq 32: Tractor Status OK
+[Server] 收到資料: Seq 33: Tractor Status OK
+[Server] 收到資料: Seq 34: Tractor Status OK
+[Server] 收到資料: Seq 35: Tractor Status OK
+[Server] 收到資料: Seq 36: Tractor Status OK
+[Server] 收到資料: Seq 37: Tractor Status OK
+[Server] 收到資料: Seq 38: Tractor Status OK
+[Server] 收到資料: Seq 39: Tractor Status OK
+[Server] 收到資料: Seq 40: Tractor Status OK
+[Server] 收到資料: Seq 41: Tractor Status OK
+[Server] 收到資料: Seq 42: Tractor Status OK
+[Server] 收到資料: Seq 43: Tractor Status OK
+[Server] 收到資料: Seq 44: Tractor Status OK
+[Server] 收到資料: Seq 45: Tractor Status OK
+[Server] 收到資料: Seq 46: Tractor Status OK
+[Server] 收到資料: Seq 47: Tractor Status OK
+[Server] 收到資料: Seq 48: Tractor Status OK
+[Server] 收到資料: Seq 49: Tractor Status OK
+[Server] 收到資料: Seq 50: Tractor Status OK
+[Server] 收到資料: Seq 51: Tractor Status OK
+[Server] 收到資料: Seq 52: Tractor Status OK
+[Server] 收到資料: Seq 53: Tractor Status OK
+[Server] 收到資料: Seq 54: Tractor Status OK
+[Server] 收到資料: Seq 55: Tractor Status OK
+[Server] 收到資料: Seq 56: Tractor Status OK
+[Server] 收到資料: Seq 57: Tractor Status OK
+[Server] 收到資料: Seq 58: Tractor Status OK
+[Server] 收到資料: Seq 59: Tractor Status OK
+[Server] 收到資料: Seq 60: Tractor Status OK
+[Server] 收到資料: Seq 61: Tractor Status OK
+[Server] 收到資料: Seq 62: Tractor Status OK
+[Server] 收到資料: Seq 63: Tractor Status OK
+[Server] 收到資料: Seq 64: Tractor Status OK
+[Server] 收到資料: Seq 65: Tractor Status OK
+[Server] 收到資料: Seq 66: Tractor Status OK
+[Server] 收到資料: Seq 67: Tractor Status OK
+[Server] 收到資料: Seq 68: Tractor Status OK
+[Server] 收到資料: Seq 69: Tractor Status OK
+[Server] 收到資料: Seq 70: Tractor Status OK
+[Server] 收到資料: Seq 71: Tractor Status OK
+[Server] 收到資料: Seq 72: Tractor Status OK
+[Server] 收到資料: Seq 73: Tractor Status OK
+[Server] 收到資料: Seq 74: Tractor Status OK
+[Server] 收到資料: Seq 75: Tractor Status OK
+[Server] 收到資料: Seq 76: Tractor Status OK
+[Server] 收到資料: Seq 77: Tractor Status OK
+[Server] 收到資料: Seq 78: Tractor Status OK
+[Server] 收到資料: Seq 79: Tractor Status OK
+[Server] 收到資料: Seq 80: Tractor Status OK
+[Server] 收到資料: Seq 81: Tractor Status OK
+[Server] 收到資料: Seq 82: Tractor Status OK
+[Server] 收到資料: Seq 83: Tractor Status OK
+[Server] 收到資料: Seq 84: Tractor Status OK
+[Server] 收到資料: Seq 85: Tractor Status OK
+[Server] 收到資料: Seq 86: Tractor Status OK
+[Server] 收到資料: Seq 87: Tractor Status OK
+[Server] 收到資料: Seq 88: Tractor Status OK
+[Server] 收到資料: Seq 89: Tractor Status OK
+[Server] 收到資料: Seq 90: Tractor Status OK
+[Server] 收到資料: Seq 91: Tractor Status OK
+[Server] 收到資料: Seq 92: Tractor Status OK
+[Server] 收到資料: Seq 93: Tractor Status OK
+[Server] 收到資料: Seq 94: Tractor Status OK
+[Server] 收到資料: Seq 95: Tractor Status OK
+[Server] 收到資料: Seq 96: Tractor Status OK
+[Server] 收到資料: Seq 97: Tractor Status OK
+[Server] 收到資料: Seq 98: Tractor Status OK
+[Server] 收到資料: Seq 99: Tractor Status OK
+[Server] 收到資料: Seq 100: Tractor Status OK
+[Server] 客戶端中斷連線。即將離開 Scope 並觸發 RAII 清理...
+[RAII] 自動釋放 Socket Descriptor (fd: 4)
+[Server] 成功釋放目前連線資源，準備迎接下一個客戶端。
+
+[Server] 正在通訊埠 8080 上等待機器人連線...
+[Server] 機器人已成功連線 (fd: 4)！
+[Server] 收到資料: Seq 1: Tractor Status OK
+[Server] 收到資料: Seq 2: Tractor Status OK
+[Server] 收到資料: Seq 3: Tractor Status OK
+[Server] 收到資料: Seq 4: Tractor Status OK
+[Server] 收到資料: Seq 5: Tractor Status OK
+[Server] 收到資料: Seq 6: Tractor Status OK
+[Server] 收到資料: Seq 7: Tractor Status OK
+[Server] 收到資料: Seq 8: Tractor Status OK
+[Server] 收到資料: Seq 9: Tractor Status OK
+[Server] 收到資料: Seq 10: Tractor Status OK
+[Server] 收到資料: Seq 11: Tractor Status OK
+[Server] 收到資料: Seq 12: Tractor Status OK
+[Server] 收到資料: Seq 13: Tractor Status OK
+[Server] 收到資料: Seq 14: Tractor Status OK
+[Server] 收到資料: Seq 15: Tractor Status OK
+[Server] 收到資料: Seq 16: Tractor Status OK
+[Server] 收到資料: Seq 17: Tractor Status OK
+[Server] 收到資料: Seq 18: Tractor Status OK
+[Server] 收到資料: Seq 19: Tractor Status OK
+[Server] 收到資料: Seq 20: Tractor Status OK
+[Server] 收到資料: Seq 21: Tractor Status OK
+[Server] 收到資料: Seq 22: Tractor Status OK
+[Server] 收到資料: Seq 23: Tractor Status OK
+[Server] 收到資料: Seq 24: Tractor Status OK
+[Server] 收到資料: Seq 25: Tractor Status OK
+[Server] 收到資料: Seq 26: Tractor Status OK
+[Server] 收到資料: Seq 27: Tractor Status OK
+[Server] 收到資料: Seq 28: Tractor Status OK
+[Server] 收到資料: Seq 29: Tractor Status OK
+[Server] 收到資料: Seq 30: Tractor Status OK
+[Server] 收到資料: Seq 31: Tractor Status OK
+[Server] 收到資料: Seq 32: Tractor Status OK
+[Server] 收到資料: Seq 33: Tractor Status OK
+[Server] 收到資料: Seq 34: Tractor Status OK
+[Server] 收到資料: Seq 35: Tractor Status OK
+[Server] 收到資料: Seq 36: Tractor Status OK
+[Server] 收到資料: Seq 37: Tractor Status OK
+[Server] 收到資料: Seq 38: Tractor Status OK
+[Server] 收到資料: Seq 39: Tractor Status OK
+[Server] 收到資料: Seq 40: Tractor Status OK
+[Server] 收到資料: Seq 41: Tractor Status OK
+[Server] 收到資料: Seq 42: Tractor Status OK
+[Server] 收到資料: Seq 43: Tractor Status OK
+[Server] 收到資料: Seq 44: Tractor Status OK
+[Server] 收到資料: Seq 45: Tractor Status OK
+[Server] 收到資料: Seq 46: Tractor Status OK
+[Server] 收到資料: Seq 47: Tractor Status OK
+[Server] 收到資料: Seq 48: Tractor Status OK
+[Server] 收到資料: Seq 49: Tractor Status OK
+[Server] 收到資料: Seq 50: Tractor Status OK
+[Server] 收到資料: Seq 51: Tractor Status OK
+[Server] 收到資料: Seq 52: Tractor Status OK
+[Server] 收到資料: Seq 53: Tractor Status OK
+[Server] 收到資料: Seq 54: Tractor Status OK
+[Server] 收到資料: Seq 55: Tractor Status OK
+[Server] 收到資料: Seq 56: Tractor Status OK
+[Server] 收到資料: Seq 57: Tractor Status OK
+[Server] 收到資料: Seq 58: Tractor Status OK
+[Server] 收到資料: Seq 59: Tractor Status OK
+[Server] 收到資料: Seq 60: Tractor Status OK
+[Server] 收到資料: Seq 61: Tractor Status OK
+[Server] 收到資料: Seq 62: Tractor Status OK
+[Server] 收到資料: Seq 63: Tractor Status OK
+[Server] 收到資料: Seq 64: Tractor Status OK
+[Server] 收到資料: Seq 65: Tractor Status OK
+[Server] 收到資料: Seq 66: Tractor Status OK
+[Server] 收到資料: Seq 67: Tractor Status OK
+[Server] 收到資料: Seq 68: Tractor Status OK
+[Server] 收到資料: Seq 69: Tractor Status OK
+[Server] 收到資料: Seq 70: Tractor Status OK
+[Server] 收到資料: Seq 71: Tractor Status OK
+[Server] 收到資料: Seq 72: Tractor Status OK
+[Server] 收到資料: Seq 73: Tractor Status OK
+[Server] 收到資料: Seq 74: Tractor Status OK
+[Server] 收到資料: Seq 75: Tractor Status OK
+[Server] 收到資料: Seq 76: Tractor Status OK
+[Server] 收到資料: Seq 77: Tractor Status OK
+[Server] 收到資料: Seq 78: Tractor Status OK
+[Server] 收到資料: Seq 79: Tractor Status OK
+[Server] 收到資料: Seq 80: Tractor Status OK
+[Server] 收到資料: Seq 81: Tractor Status OK
+[Server] 收到資料: Seq 82: Tractor Status OK
+[Server] 收到資料: Seq 83: Tractor Status OK
+[Server] 收到資料: Seq 84: Tractor Status OK
+[Server] 收到資料: Seq 85: Tractor Status OK
+[Server] 收到資料: Seq 86: Tractor Status OK
+[Server] 收到資料: Seq 87: Tractor Status OK
+[Server] 收到資料: Seq 88: Tractor Status OK
+[Server] 收到資料: Seq 89: Tractor Status OK
+[Server] 收到資料: Seq 90: Tractor Status OK
+[Server] 收到資料: Seq 91: Tractor Status OK
+[Server] 收到資料: Seq 92: Tractor Status OK
+[Server] 收到資料: Seq 93: Tractor Status OK
+[Server] 收到資料: Seq 94: Tractor Status OK
+[Server] 收到資料: Seq 95: Tractor Status OK
+[Server] 收到資料: Seq 96: Tractor Status OK
+[Server] 收到資料: Seq 97: Tractor Status OK
+[Server] 收到資料: Seq 98: Tractor Status OK
+[Server] 收到資料: Seq 99: Tractor Status OK
+[Server] 收到資料: Seq 100: Tractor Status OK
+[Server] 客戶端中斷連線。即將離開 Scope 並觸發 RAII 清理...
+[RAII] 自動釋放 Socket Descriptor (fd: 4)
+[Server] 成功釋放目前連線資源，準備迎接下一個客戶端。
+
+[Server] 正在通訊埠 8080 上等待機器人連線...
+^C
+[?2004h]0;user@user-VMware-Virtual-Platform: ~/agri-robot-training[01;32muser@user-VMware-Virtual-Platform[00m:[01;34m~/agri-robot-training[00m$ exit
+[?2004lexit
+
+Script done on 2026-10-23 19:34:46+08:00 [COMMAND_EXIT_CODE="130"]
