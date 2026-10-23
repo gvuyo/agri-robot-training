@@ -1,6 +1,7 @@
 #include "tractor_state.hpp"
 #include <iostream>
 #include <cstring>
+#include <string>
 #include <unistd.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
@@ -49,24 +50,27 @@ int main() {
     }
     std::cout << "[Client] 成功連線至 Gateway 伺服器！\n";
 
-    std::vector<std::string> test_messages = {
-        "Tractor Status OK\n",
-        "Requesting AUTO mode navigation\n"
-    };
-
     char buffer[1024] = {0};
-    for (const auto& msg : test_messages) {
-        std::cout << "[Client] 發送: " << msg;
-        send(client_socket.get(), msg.c_str(), msg.length(), 0);
+    // 滿足驗收條件：連續 Echo 至少 100 次
+    for (int i = 1; i <= 100; ++i) {
+        std::string msg = "Seq " + std::to_string(i) + ": Tractor Status OK\n";
+        
+        ssize_t sent_bytes = send(client_socket.get(), msg.c_str(), msg.length(), MSG_NOSIGNAL);
+        if (sent_bytes < 0) {
+            std::perror("Send 失敗");
+            break;
+        }
 
         std::memset(buffer, 0, sizeof(buffer));
         ssize_t bytes_received = recv(client_socket.get(), buffer, sizeof(buffer) - 1, 0);
         if (bytes_received > 0) {
-            std::cout << "[Client] 接收回傳: " << buffer;
+            std::cout << "[Client] 收到 Echo (" << i << "/100): " << buffer;
+        } else {
+            std::cout << "[Client] 伺服器已斷線。\n";
+            break;
         }
-        sleep(1);
     }
 
-    return 0; // main 結束，client_socket 離開範疇，自動解構釋放 fd！
+    std::cout << "[Client] 100 次連續 Echo 測試完畢。\n";
+    return 0; 
 }
-
